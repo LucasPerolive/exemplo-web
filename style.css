@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
@@ -43,6 +43,13 @@ body {
 
 .text h1 span {
     color: #0073e6; /* Cor para destacar a palavra "Terraform" */
+}
+
+.identifier-display {
+    font-size: 18px;
+    color: #0073e6;
+    margin: 10px 0;
+    font-weight: bold;
 }
 
 .text p {
